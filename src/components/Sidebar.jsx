@@ -2,7 +2,7 @@ import {FaBolt, FaChartBar, FaChevronLeft, FaChevronRight, FaPage4, FaRegSun, Fa
 
 function Sidebar() {
   return (
-    <div className='bg-blue-500 overflow-y-auto h-screen px-6'>
+    <div className='bg-[#0D0D44] overflow-y-auto h-screen px-6 '>
       <div className='px-[15px]  py-[30px] flex items-center justify-center border-b-[1px] border-gray-400 pb-1'>
         <h1 className='text-white font-extrabold text-center text-[20px] leading-[24px] cursor-pointer'>
           Admin Panel
@@ -73,7 +73,7 @@ function Sidebar() {
       {/* upgrade pro section  */}
       <div className='flex items-center justify-center pt-4'>
         <div className='h-[40px] w-[40px] bg-[#3C5EC1] rounded-full flex items-center justify-center'>
-          <FaChevronLeft color='white' />
+          <FaChevronLeft color='white' className="cursor-pointer"/>
         </div>
       </div>
       <div className='bg-[#3C5EC1] mt-4 flex items-center justify-center flex-col py-4 px-3 gap-4 rounded-md'>
